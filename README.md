@@ -4,7 +4,7 @@
 
 
 **Circuit Diagram**<br>
-<img src="servo-arduino-c_diagram.png" height="250"> <br> <br>
+<img src="servo-arduino-c_diagram.png" height="150"> <br> <br>
 
 **SerialComServoCont.ino** <br>
 *In this code content, we simply take the data coming from the serial port as the angle value of the servo motor.* <br>
