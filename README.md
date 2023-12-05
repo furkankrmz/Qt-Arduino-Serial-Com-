@@ -4,13 +4,13 @@
 
 
 **Circuit Diagram**<br>
-<img src="servo-arduino-c_diagram.png" height="150"> <br> <br>
+<img src="servo-arduino-c_diagram.png" height="200"> <br> <br>
 
 **SerialComServoCont.ino** <br>
 *In this code content, we simply take the data coming from the serial port as the angle value of the servo motor.* <br>
 <br>
 **Servo_controller_Qt**<br>
-<img src="interface.png" height="500"> <br>
+<img src="interface.png" height="150"> <br>
 *Connection: We use the QSerialPort class to communicate with Arduino via the serial port. We attempt to automatically find the appropriate port using the vendor and product IDs of the Arduino Uno. If it cannot be found, a warning message is displayed.
 
 *Sending Commands: In the updateServo function, we send commands to the Arduino for the servo motor angle. In this function, we write the value in the servoSetting variable to the serial port.
