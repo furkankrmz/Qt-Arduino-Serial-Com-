@@ -21,7 +21,7 @@ public:
     ~Dialog();
 
 private slots:
-    void on_degree45Button_clicked();
+    void on_degree180Button_clicked();
     void updateServo(QString command);
     void readSensorValue();
 

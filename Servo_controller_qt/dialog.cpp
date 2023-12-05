@@ -56,7 +56,7 @@ Dialog::~Dialog()
     delete ui;
 }
 
-void Dialog::on_degree45Button_clicked()
+void Dialog::on_degree180Button_clicked()
 {
     servoSetting = "180";
     updateServo(servoSetting);
