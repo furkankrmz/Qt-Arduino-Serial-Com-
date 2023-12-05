@@ -3,4 +3,5 @@
 *While doing this, you will have seen how I read and write over the serial port with qt* <br><br>
 
 
-**Circuit Diagram**
+**Circuit Diagram**<br>
+<img src="servo-arduino-c_diagram.png" height="500">
